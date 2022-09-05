@@ -1,0 +1,13 @@
+.cover__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__text {
+    max-width: 288px;
+  }
+}

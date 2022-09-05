@@ -1,0 +1,10 @@
+.place__website_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-decoration: underline;
+  margin: 0;
+  align-self: start;
+  justify-self: start;
+}

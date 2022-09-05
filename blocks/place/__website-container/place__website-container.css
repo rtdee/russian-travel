@@ -1,0 +1,12 @@
+.place__website-container {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website-container {
+    align-self: start;
+  }
+}
