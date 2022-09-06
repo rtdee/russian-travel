@@ -5,4 +5,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links-list {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links-list {
+    flex-direction: column;
+    padding-left: 0;
+  }
 }

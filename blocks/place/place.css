@@ -33,7 +33,3 @@
 .place:first-of-type {
   padding: 0;
 }
-
-.place:last-of-type {
-  height: 584px;
-}

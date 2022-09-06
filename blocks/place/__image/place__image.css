@@ -22,8 +22,8 @@
 
 @media screen and (max-width: 320px) {
   .place__image {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    object-fit: contain;
     padding-top: 32px;
   }
 }

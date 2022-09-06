@@ -5,3 +5,9 @@
 .footer__links-list-item:last-of-type {
   padding-right: 0;
 }
+
+@media screen and (max-width:320px) {
+  .footer__links-list-item {
+    padding-bottom: 32px;
+  }
+}
