@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 35%;
+  top: 40%;
+  z-index: 3;
 }
 
 @media screen and (max-width: 320px) {
