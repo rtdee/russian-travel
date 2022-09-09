@@ -6,7 +6,7 @@
   padding-right: 0;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width: 320px) and (max-width: 691px)  {
   .footer__links-list-item {
     padding-bottom: 32px;
   }

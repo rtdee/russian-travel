@@ -2,3 +2,9 @@
   width: 100%;
   object-fit: contain;
 }
+
+@media screen and (min-width: 321px) and (max-width: 699px) {
+  .photo-grid__item {
+    width: 80%;
+  }
+}
