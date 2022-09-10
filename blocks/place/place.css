@@ -15,7 +15,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 3.5%;
-    row-gap: 48px
+    row-gap: 48px;
   }
 }
 
