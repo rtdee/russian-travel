@@ -8,7 +8,7 @@
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: 2;
-  align-self: center;
+  align-self: end;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,9 +19,10 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    max-width: 340px;
+    max-width: 328px;
     font-size: 42px;
     line-height: 110%;
+    align-self: flex-start;
   }
 }
 
@@ -31,5 +32,6 @@
     font-size: 32px;
     line-height: 109%;
     align-self: start;
+    padding-left: 16px;
   }
 }

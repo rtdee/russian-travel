@@ -2,21 +2,28 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  column-gap: 3%;
-  min-height: 660px;
+  column-gap: 2%;
+  row-gap: 48px;
   padding-top: 80px;
+}
+
+
+.place:first-of-type {
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    min-height: 640px;
+    column-gap: 3.5%;
+    row-gap: 48px
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    min-height: 581px;
-    padding-top: 73px;
+    row-gap: 63px;
+    padding-top: 49px;
+    column-gap: 2%;
   }
 }
 
@@ -24,12 +31,11 @@
   .place {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 1042px;
-    margin-top: 50px;
+    row-gap: 0;
+    
   }
-}
 
-.place:first-of-type {
-  padding: 0;
+  .place:first-of-type {
+    margin-top: 64px;
+  }
 }

@@ -1,25 +1,18 @@
 .places {
   display: grid;
   grid-template-columns: 1fr;
-  /*padding: 92px 148px 0;*/
   padding-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    /*width: 928px;*/
+    padding-top: 96px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__image-container {
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 691px) {
-  .places {
     padding: 0;
-    width: 100%;
   }
 }
