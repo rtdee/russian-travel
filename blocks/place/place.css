@@ -9,20 +9,19 @@
 
 
 .place:first-of-type {
-  padding: 0;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 3.5%;
-    row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    row-gap: 63px;
-    padding-top: 49px;
+    row-gap: 10%;
+    padding-top: 118px;
     column-gap: 2%;
   }
 }
@@ -32,7 +31,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 0;
-    
+    padding-top: 50px;
   }
 
   .place:first-of-type {

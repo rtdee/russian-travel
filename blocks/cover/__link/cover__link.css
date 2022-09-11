@@ -2,17 +2,12 @@
   text-decoration: none;
   color: #fff;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
   z-index: 3;
-  top: calc(50% - 128px);
-}
-  
-@media screen and (min-width: 320px) and (max-width: 691px) {
-  .cover__link {
-    max-width: 288px;
-    top: calc(50% - 66px);
-  }
+  top: 0;
+  right: 0;
 }
